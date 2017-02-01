@@ -1,0 +1,22 @@
+.top-bar{
+  background-color: $nav-backgroud;
+}
+
+.top-bar,.top-bar ul{
+  background-color: $nav-backgroud;
+}
+
+.top-bar{
+  .menu{
+    color: $top-bar-text-color;
+  }
+
+  .menu > .menu-text > a{
+    display: inline;
+    padding: 0;
+  }
+
+  .active-link{
+    font-weight: bold;
+  }
+}
