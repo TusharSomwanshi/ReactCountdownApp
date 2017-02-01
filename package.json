@@ -4,7 +4,8 @@
   "description": "simple react application",
   "main": "index.js",
   "scripts": {
-    "test": "karma start"
+    "test": "karma start",
+    "start": "node server.js"
   },
   "author": "Tushar Somwanshi",
   "license": "MIT",
